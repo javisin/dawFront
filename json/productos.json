@@ -1,0 +1,230 @@
+{
+  "clothes": [
+    {
+      "name": "Pijama largo de hombre multicolor combinado",
+      "id": 1,
+      "brand": "El Corte Inglés",
+      "sizes": ["S","M","L","XL","XXL"],
+      "description": "Pijama largo compuesto por una camiseta de punto en color gris con cuello redondo y bolsillo en el pecho, y pantalón de tela en color gris con estampado de cuadros.",
+      "gender": "male",
+      "colors": ["verde","gris"],
+      "price": "29,99€",
+      "img": "img/hombre/pijama.jpg",
+      "new": false,
+      "trending": true,
+      "opinion": [
+        {
+          "id": 1,
+          "user": "José Luis",
+          "title": "El mejor pijama",
+          "comment": "Pijama super calentito perfecto para el invierno. Además, tiene un estilo único combinando los colores verde y gris. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, consequuntur tempora quisquam est voluptatem error quo quasi in nesciunt sit obcaecati laudantium inventore vero quia esse temporibus fugiat quos minima nihil mollitia recusandae iste deleniti. Omnis ut voluptatibus dignissimos at. Enim libero facilis sed impedit optio suscipit qui hic incidunt."
+        },
+        {
+          "id": 2,
+          "user": "Margarita",
+          "title": "Ni para trapo sirve",
+          "comment": "La calidad del tejido es muy mala y no abriga nada. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, consequuntur tempora quisquam est voluptatem error quo quasi temporibus fugiat quos minima nihil mollitia recusandae iste deleniti. Omnis ut voluptatibus dignissimos at. Enim libero facilis sed impedit optio suscipit qui hic incidunt."
+        }
+      ]
+    },
+    {
+      "name": "Vaquero de hombre classic azul",
+      "id": 2,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Vaquero de color azul lavado y cinco bolsillos. Se cierra mediante botón y cremallera.",
+      "gender": "male",
+      "colors": ["azul"],
+      "price": "79,95€",
+      "img": "img/hombre/vaqueroHombre.jpg",
+      "new": true,
+      "trending": true,
+      "opinion": [
+        {
+          "id": 1,
+          "user": "",
+          "title": "",
+          "comment": ""
+        },
+        {
+          "id": 2,
+          "user": "",
+          "title": "",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "name": "Polo",
+      "id": 3,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Polo rojo",
+      "gender": "male",
+      "colors": ["rojo"],
+      "price": "49,99€",
+      "img": "img/hombre/poloRojo.jpg",
+      "new": false,
+      "trending": true
+    },
+    {
+      "name": "Vaquero super pitillo IVY fino de tiro alto",
+      "id": 4,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Ivy es nuestro ajuste más alto y más delgado de la gama y tiene una talle super alto sobre de las caderas y ajuste más ajustado desde la parte superior hasta la parte inferior con la longitud del tobillo.",
+      "gender": "female",
+      "colors": ["verde","rojo"],
+      "price": "36,95€",
+      "img": "img/mujer/vaqueroNegro.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Chaqueta de piel",
+      "id": 5,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Chaqueta abrigada",
+      "gender": "female",
+      "colors": ["verde","rojo"],
+      "price": "75,99€",
+      "img": "img/mujer/chaquetaPiel.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Shorts negros",
+      "id": 6,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Shorts negros colección verano",
+      "gender": "female",
+      "colors": ["verde","rojo"],
+      "price": "8€",
+      "img": "img/mujer/shortsNegros.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Blusa",
+      "id": 7,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Blusa azul y blanca combinada",
+      "gender": "female",
+      "colors": ["verde","rojo"],
+      "price": "19,99€",
+      "img": "img/mujer/blusaAzul.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Falda negra",
+      "id": 8,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Falda negra perfecta para el verano y salir de fiesta",
+      "gender": "female",
+      "colors": ["negro"],
+      "price": "89,99€",
+      "img": "img/mujer/faldaNegra.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Traje",
+      "id": 9,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Traje formal de la mejor calidad.",
+      "gender": "male",
+      "colors": ["verde","rojo"],
+      "price": "99,99€",
+      "img": "img/hombre/trajeChaqueta.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Zapatillas deportivas",
+      "id": 10,
+      "brand": "Nike",
+      "sizes": ["S","M","L","XL"],
+      "description": "Zapatillas deportivas blancas, logo rojo.",
+      "gender": "male",
+      "colors": ["verde","rojo"],
+      "price": "89,95€",
+      "img": "img/hombre/zapatillasNike.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Bañador azul",
+      "id": 11,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Bañador tipo bermuda",
+      "gender": "male",
+      "colors": ["verde","rojo"],
+      "price": "10€",
+      "img": "img/hombre/bañadorAzul.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Abrigo largo",
+      "id": 12,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Abrigo invernal de pelo blanco",
+      "gender": "female",
+      "colors": ["verde","rojo"],
+      "price": "93,95€",
+      "img": "img/mujer/abrigoBlanco.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Vestido corto",
+      "id": 13,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Vestido corto blanco de verano",
+      "gender": "female",
+      "colors": ["blanco"],
+      "price": "59,99€",
+      "img": "img/mujer/vestidoBlanco.jpg",
+      "new": true,
+      "trending": true
+    },
+    {
+      "name": "Chaleco azul",
+      "id": 14,
+      "brand": "Bershka",
+      "sizes": ["S","M","L","XL"],
+      "description": "Chaleco azul casual.",
+      "gender": "male",
+      "colors": ["verde","rojo"],
+      "price": "45,99€",
+      "img": "img/hombre/chalecoAzul.jpg",
+      "new": true,
+      "trending": true
+    }
+    
+  ],
+
+  "carousel": [
+    {
+      "id": 1,
+      "img": "img/mujer/carruselmujer.jpg"
+    },
+    {
+      "id": 2,
+      "img": "img/hombre/tiendahombre.jpg"
+    },
+    {
+      "id": 3,
+      "img": "img/mujer/fotocarrusel.jpg"
+    }
+  ]
+}

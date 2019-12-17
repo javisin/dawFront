@@ -1,0 +1,237 @@
+body {
+  background-color: rgb(224, 200, 91);
+  box-sizing:border-box;
+}
+
+.boton {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #1a1a1a;
+  letter-spacing: .2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  margin: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.boton:hover{
+  color: #FFF;
+  background-color: #1a1a1a;
+}
+
+.boton:active{
+  color: #FFF;
+  background-color: palevioletred;
+}
+
+.custom-photo {
+  width: inherit;
+  height: inherit;
+  margin-bottom: 1em;
+}
+
+td {
+  margin-top: auto;
+  margin-bottom:auto;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+.a-no-style:link {
+  text-decoration: none;
+}
+
+.navbar-custom {
+  position: absolute;
+  right: 1em;
+}
+
+.color-twitter {
+  color: #00BFFF;
+}
+
+.color-instagram {
+  color: violet;
+}
+
+.color-facebook {
+  color: #4169e1;
+}
+
+.size-custom {
+  font-size: 32px;
+
+}
+
+.page-wrapper {
+  min-height: 100vh;
+}
+
+.text-large {
+  font-size: 1.7em;
+}
+
+.photo-table {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.form-custom {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-section {
+  margin-top: 80px;
+}
+
+.border-container {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.filter-menu {
+  min-height: 25em;
+}
+
+.bg-secundario {
+  background-color: #b8b7b7;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.foro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foro input[type=text],
+.foro input[type=email],
+.foro textarea,
+.foro input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.foro input[type=submit] {
+  background-color: coral;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  float: right;
+  margin-top: 10px;
+}
+
+.foro input[type=submit]:hover {
+  background-color: #f44336;
+}
+
+.foro input[type=text]:hover,
+.foro input[type=email]:hover,
+.foro textarea:hover,
+.foro input[type=password]:hover {
+  border: 1px solid #555;
+  border-radius: 4px;
+  outline: 0;
+}
+
+.label-style {
+  float: left;
+  width: 30%;
+  margin-top: 15px;
+}
+
+.input-style {
+  float: left;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.left50 {
+  float: left;
+  width: 50%;
+}
+
+.right50 {
+  float: right;
+  width: 50%;
+}
+
+.boton-disable {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: gray;
+  letter-spacing: .2px;
+  text-decoration: line-through;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  margin: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  opacity: 60%;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.error-message{
+  display:none;
+  color: red;
+}
+
+.error {
+  color: red;
+}
+
+@media (max-width: 991px) {
+
+  .navbar-custom {
+    position: relative;
+    right: auto;
+  }
+
+}
+
+@media (min-width: 1920px) {
+
+  .container {
+    min-width: 100em;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .label-style,
+  .input-style,
+  .foro input[type=submit] {
+    width: 100%;
+  }
+}

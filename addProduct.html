@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CanaryShop</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/shop-homepage.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo copia.png" alt="Logo" width="150px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Mujer </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="mujer/generico.html">Pantalones</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="mujer/generico.html">Blusas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="mujer/generico.html">Camisas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="mujer/generico.html">Chaquetas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="mujer/generico.html">Vestidos</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="mujer/generico.html">Zapatos</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Hombre </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="hombre/generico.html">Pantalones</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="hombre/generico.html">Blusas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="hombre/generico.html">Camisas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="hombre/generico.html">Chaquetas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="hombre/generico.html">Trajes</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="hombre/generico.html">Zapatos</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="about.html">Sobre nosotros</a>
+          </li>
+
+          <ul class="navbar-nav navbar-custom">
+            <li class="nav-item">
+              <a class="nav-link material-icons" data-toggle="modal" data-target="#modalLoginForm"
+                href="">account_circle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link material-icons mr-2" href="mycart.html">shopping_cart</a>
+            </li>
+            <form class="form-inline" action="#">
+              <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+              <button class="btn btn-success" type="submit">Buscar</button>
+            </form>
+          </ul>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Login -->
+    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h1 class="modal-title w-100 font-weight-bold">Iniciar Sesión</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-2">
+              <i class="material-icons text-danger">email</i>
+              <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Introduce tu email">
+            </div>
+
+            <div class="md-form mb-2">
+              <i class="material-icons text-danger">lock</i>
+              <input type="password" id="defaultForm-pass" pattern=".{6,}" maxlength="12"
+                  class="form-control validate" placeholder="Introduce tu contraseña" required>
+            </div>
+
+            <div clas="">
+              <a href="">¿Nuevo usuario? Regístrate aquí</a>
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="submit" class="btn btn-danger">Entrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Login -->
+
+    <div class="container my-3">
+      <section class="form-custom">
+
+        <form class="form-horizontal mx-auto border-container px-3">
+          <h1 class="text-center m-4">Nuevo Producto</h1>
+
+          <!-- Text input-->
+          <div class="form-group row justify-content-center">
+            <label class="col-md-2 control-label" for="product_id">ID:</label>
+            <div class="col-md-8">
+              <input id="product_id" name="product_id" class="form-control input-md" required="" type="text">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group row justify-content-center">
+            <label class="col-md-2 control-label" for="product_name">Nombre:</label>
+            <div class="col-md-8">
+              <input id="product_name" name="product_name" class="form-control input-md" required="" type="text">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group row justify-content-center">
+            <label class="col-md-2 control-label" for="product_description">Descripción:</label>
+            <div class="col-md-8">
+              <input id="product_description" name="product_description" class="form-control input-md" required=""
+                type="text">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group row justify-content-center">
+            <label class="col-md-2 control-label" for="product_price">Precio:</label>
+            <div class="col-md-8">
+              <input id="product_price" name="product_price" class="form-control input-md" required="" type="number"
+                min="0">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group row justify-content-center">
+            <label class="col-md-2 control-label" for="product_quantity">Stock:</label>
+            <div class="col-md-8">
+              <input id="product_quantity" name="product_quantity" class="form-control input-md" required=""
+                type="number" min="0">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group row justify-content-center">
+            <label class="col-md-2 control-label" for="product_gender">Género:</label>
+            <div class="col-md-8">
+              <select class="form-control" name="product_gender" id="product_gender">
+                <option value="Mujer">Mujer</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Unisex">Ambos</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group row justify-content-center">
+            <label class="col-md-2 control-label" for="product_image">Imagen:</label>
+            <div class="col-md-8">
+              <input id="product_image" name="product_image" class="form-control-file" required="" type="file">
+            </div>
+          </div>
+
+          <div class="form-group row justify-content-center">
+            <button class="btn btn-dark col-6 col-md-6">Añadir</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+      <div class="row m-0 justify-content-end align-items-center">
+        <div class="col-6 col-md-8">
+          <p class="m-0 text-center text-white">Copyright &copy; CanaryShop 2019</p>
+        </div>
+        <div class="col-5 col-md-2">
+          <a href="https://www.twitter.com" target="_blank"
+            class="a-no-style fa fa-twitter color-twitter size-custom mr-2 pr-1"></a>
+          <a href="https://www.instagram.com" target="_blank"
+            class="a-no-style fa fa-instagram color-instagram size-custom mr-2 pr-1"></a>
+          <a href="https://www.facebook.com" target="_blank"
+            class="a-no-style fa fa-facebook color-facebook size-custom mr-2 pr-1"></a>
+        </div>
+      </div>
+    </footer>
+  <!-- End Footer -->
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

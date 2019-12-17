@@ -1,0 +1,119 @@
+<div id ="head-page"></div>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <!-- End Navbar -->
+
+    <!-- Page Content -->
+    <div class="container">
+      <section class="mb-4 bg-light pb-3 rounded border border-dark px-5 mt-5">
+        <div class="col-lg-9">
+          <h1 class="font-weight-bold text-center my-4">Contáctanos</h1>
+          <p class="text-center w-responsive mx-auto mb-5">¿Tienes alguna pregunta? No dudes en ponerte en contacto con
+            nosotros directamente.</p>
+        </div>
+
+        <div class="row">
+
+          <!-- col-right -->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <!--form-->
+            <form action="" id="contactForm">
+
+              <!-- row -->
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label for="name" class="">Nombre</label>
+                    <input type="text" id="contactName" name="contactName" class="form-control">
+                    <small id="nameFail" class="form-text error-message">Rellene este campo.</small>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label for="email" class="">Dirección de email</label>
+                    <input type="text" id="contactEmail" name="contactEmail" class="form-control validate">
+                    <small id="emailFail" class="form-text error-message">Por favor, introduzca un email válido.</small>
+                  </div>
+                </div>
+              </div>
+              <!-- End row -->
+
+              <!-- row -->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0 mt-2">
+                    <label for="subject" class="">Asunto</label>
+                    <input type="text" id="contactSubject" name="contactSubject" class="form-control" maxlength="60">
+                    <small id="subjectFail" class="form-text error-message">Por favor, introduzca un asunto de mínimo 5 caracteres.</small>
+                  </div>
+                </div>
+              </div>
+              <!-- End row -->
+
+              <!-- row -->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mt-2">
+                    <label for="message">Mensaje</label>
+                    <textarea type="text" id="contactMessage" name="message" rows="5" maxlength="1000"
+                      class="form-control md-textarea" ></textarea>
+                    <small id="messageFail" class="form-text error-message">Por favor, introduzca un asunto de mínimo 20 caracteres.</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- button -->
+              <div class="text-center text-md-left mt-3">
+                <button class="btn btn-danger" type="submit">Enviar</button>
+              </div>
+              <div class="status"></div>
+              <!-- End button -->
+
+              <!-- End row -->
+            </form>
+            <!--End form-->
+
+          </div>
+          <!-- End col-right -->
+
+          <!-- aside col-left -->
+          <aside class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li><i class="material-icons" style="font-size:50px">location_on</i>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li><i class="material-icons" style="font-size:50px">phone</i>
+                <p>+ 01 234 567 890</p>
+              </li>
+              <li><i class="material-icons" style="font-size:50px">email</i>
+                <p>lorem@ipsumdolorsit.com</p>
+              </li>
+            </ul>
+          </aside>
+          <!-- End aside col-left -->
+
+        </div>
+      </section>
+    </div>
+    <!-- End container -->
+
+  </div>
+
+  <!-- Footer -->
+  <div id ="footer"></div>
+  <!-- End Footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/views.js"></script>
+  <script src="js/validateForm.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<div id="head-page"></div>
+
+<body>
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <!-- End Navbar -->
+
+    <!-- Page Content -->
+    <div class="container p-5">
+      <section class="mb-4 bg-light pb-3 rounded border border-dark px-5 mt-5">
+        <h1 class="font-weight-bold text-center my-4">Registrarse</h1>
+        <p class="text-center w-responsive mx-auto mb-5">Únase a nuestra comunidad para estar al tanto de todas las
+          promociones y ofertas.</p>
+
+        <!-- col-right -->
+          <!--form-->
+          <form action="" id="signUpForm">
+
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <label for="name" class="">Nombre</label>
+                <input type="text" id="signUp-name" class="form-control my-1">
+                <small id="nameFail" class="form-text error-message">Rellene este campo.</small>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <label for="name" class="">Apellido</label>
+                <input type="text" id="signUp-surname" name="contactName" class="form-control my-1">
+                <small id="nameFail" class="form-text error-message">Rellene este campo.</small>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <label for="email" class="">Dirección de email</label>
+                <input type="text" id="signUp-email" class="form-control validate my-1">
+                <small id="emailFail" class="form-text error-message">Por favor, introduzca un email válido.</small>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <label for="email" class="">Nombre de usuario</label>
+                <input type="text" id="signUp-username" class="form-control validate my-1">
+                <small id="emailFail" class="form-text error-message">Por favor, introduzca un email válido.</small>
+              </div>
+            </div>
+
+
+            <div class="col-md-12">
+              <div class="md-form mb-0 mt-2">
+                <label for="subject" class="">Contraseña</label>
+                <input type="text" id="signUp-passwd" class="form-control my-1" maxlength="60">
+                <small id="subjectFail" class="form-text error-message">Por favor, introduzca un asunto de mínimo 5
+                  caracteres.</small>
+              </div>
+            </div>
+
+
+            <div class="col-md-12 text-center text-md-left mt-3">
+              <button class="btn btn-danger" type="submit">Registrarse</button>
+            </div>
+        </div>
+        </form>
+        <div id="signUpMessage"></div>
+        <!--End form-->
+      </section>
+    </div>
+  </div>
+  <!-- End container -->
+
+  <!-- Footer -->
+  <div id="footer"></div>
+  <!-- End Footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/validateForm.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
